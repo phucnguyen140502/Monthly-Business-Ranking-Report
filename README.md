@@ -1,7 +1,18 @@
 <div align="center">
-    <h1>Monthly Business Ranking Analysis Report</h1>
     <img src="https://github.com/user-attachments/assets/d50b9348-a586-4721-98d7-35da11444fb3" alt="Monthly Business Ranking Analysis Report" />
 </div>
+
+<p align="center">
+  <a href="https://github.com/phucnguyen140502/Monthly-Business-Ranking-Report/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/phucnguyen140502/Monthly-Business-Ranking-Report?style=for-the-badge" alt="Contributors">
+  </a>
+  <a href="https://github.com/phucnguyen140502/Monthly-Business-Ranking-Report/forks">
+    <img src="https://img.shields.io/github/forks/phucnguyen140502/Monthly-Business-Ranking-Report?style=for-the-badge" alt="Forks">
+  </a>
+  <a href="https://github.com/phucnguyen140502/Monthly-Business-Ranking-Report/issues">
+    <img src="https://img.shields.io/github/issues/phucnguyen140502/Monthly-Business-Ranking-Report?style=for-the-badge" alt="Issues">
+  </a>
+</p>
 
 ## Table of Content 📍:
 - [1. Data Collection](#1-data-collection)
