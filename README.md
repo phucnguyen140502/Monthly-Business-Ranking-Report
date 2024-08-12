@@ -14,6 +14,36 @@
   </a>
 </p>
 
+<p align="center">
+  <!-- Row 1 -->
+  <a href="https://code.visualstudio.com/">
+    <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code">
+  </a>
+  <a href="https://www.microsoft.com/en-us/microsoft-365/excel">
+    <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel">
+  </a>
+  <a href="https://dbeaver.io/">
+    <img src="https://img.shields.io/badge/DBeaver-5D6A7D?style=for-the-badge&logo=dbeaver&logoColor=white" alt="DBeaver CE">
+  </a>
+  <a href="https://github.com/">
+    <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="GIT">
+  </a>
+</p>
+
+<p align="center">
+  <!-- Row 2 -->
+  <a href="https://github.com/search?q=Object+Oriented+Programming+language%3APython&type=repositories&l=Python&p=1">
+    <img src="https://img.shields.io/badge/Python-306998?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  </a>
+  <a href="https://www.postgresql.org/">
+    <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  </a>
+</p>
+
+
+
+
+
 ## Table of Content 📍:
 - [1. Data Collection](#1-data-collection)
 - [2. Data Modeling & ETL (Extract, Transform, Load) Processes](#2-data-preparation--transformation)
