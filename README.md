@@ -66,8 +66,9 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
 
 <details>
   <summary id="2-data-preparation--transformation">2. Data Preparation & Transformation</summary>
+    
+You need to 
 
-  Các bước cài đặt được liệt kê ở đây. Bạn có thể mô tả từng bước cài đặt và các thông tin quan trọng khác.
 
 </details>
 
