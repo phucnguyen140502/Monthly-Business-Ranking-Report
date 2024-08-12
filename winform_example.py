@@ -46,7 +46,7 @@ def export():
     
     try:
 
-        excel_file = 'template_report_kinh_doanh.xlsx'
+        excel_file = 'results/template_report_kinh_doanh.xlsx'
 
         if var_template_BCTH.get():
             query1 = "SELECT * FROM xep_hang_kinh_doanh.results"
