@@ -3,14 +3,15 @@
     <img src="https://github.com/user-attachments/assets/d50b9348-a586-4721-98d7-35da11444fb3" alt="Monthly Business Ranking Analysis Report" />
 </div>
 
-## Table of Content:
+## Table of Content 📍:
 - [1. Data Collection](#1-data-collection)
 - [2. Data Modeling & ETL (Extract, Transform, Load) Processes](#2-data-preparation--transformation)
 - [3. Database Connection & WinForm Integration with Python](#3-data-model)
 - [4. Data Visualization](#4-data-visualization)
 - [5. Demo](#5-demo)
 
-My Goals: The project will assist you in creating overviews and monthly ranking reports, including everything from data preparation and collecting to data analysis and visualization.
+My Goals 🎯: 
+The project will assist you in creating overviews and monthly ranking reports, including everything from data preparation and collecting to data analysis and visualization.
 
 <details>
     <summary id="1-data-collection">1. Data Collection 📋</summary>
@@ -22,7 +23,7 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
     <p><em>Choose file csv on computer</em></p>
   </div>
 
-* Table Mapping 🎯:
+* Table Mapping 🗺️:
   
   <div align="center">
     <img src="https://github.com/user-attachments/assets/5d69790d-6fc3-44ac-906e-80bdde5722fa"/>
