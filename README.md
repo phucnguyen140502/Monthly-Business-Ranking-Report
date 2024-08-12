@@ -66,9 +66,7 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
 
 
 <details>
-  <summary id="2-data-preparation--transformation">2. Data Modeling & ETL (Extract, Transform, Load) Processes
-      <i class="fa-solid fa-database"></i>
-  </summary>
+  <summary id="2-data-preparation--transformation">2. Data Modeling & ETL (Extract, Transform, Load) Processes 🗃️ </summary>
     
 * You need to create physical, we will 2 folder including: summary (tổng hợp) and ranking (xếp hạng)
     * Summary(tổng hợp):
