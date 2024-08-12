@@ -5,6 +5,7 @@
 - [2. Data Modeling & ETL (Extract, Transform, Load) Processes](#2-data-preparation--transformation)
 - [3. Database Connection & WinForm Integration with Python](#3-data-model)
 - [4. Data Visualization](#4-data-visualization)
+- [5. Demo](#5-demo)
 
 My Goals: The project will assist you in creating overviews and monthly ranking reports, including everything from data preparation and collecting to data analysis and visualization.
 
@@ -294,10 +295,23 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
 
 <details>
   <summary id="4-data-visualization">4. Data Visualization</summary>
+<div align="center">
+<img src="https://github.com/user-attachments/assets/426dd3b0-02fa-41ec-8a2f-2dce80e9f861"/>
+   <p><em>Bao Cao Tong Hop</em></p>
+ </div>
 
-  Phần này sẽ mô tả cách biểu đồ hóa dữ liệu. Thông tin chi tiết sẽ xuất hiện khi người dùng bấm vào.
+<div align="center">
+<img src="https://github.com/user-attachments/assets/32ae03c1-447f-4ba2-b79c-5df873fe7a70"/>
+<p><em>Bao Cao Xếp Hạng</em></p>
+</div>
 
 </details>
 
+<details>
+  <summary id="5-demo">5. Demo</summary>
 
+https://github.com/user-attachments/assets/9e9fca5b-a12a-48bf-af1e-5d16cda652a2
+    <p><em>Demo project</em></p>
+
+</details>
 
