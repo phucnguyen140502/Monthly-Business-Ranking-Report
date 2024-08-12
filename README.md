@@ -52,6 +52,7 @@
 - [5. Demo](#5-demo)
 
 My Goals 🎯: 
+
 The project will assist you in creating overviews and monthly ranking reports, including everything from data preparation and collecting to data analysis and visualization.
 
 <details>
