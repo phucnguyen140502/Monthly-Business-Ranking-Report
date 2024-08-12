@@ -1,4 +1,7 @@
-# Monthly Business Ranking Analysis Report
+<div align="center">
+    <h1>Monthly Business Ranking Analysis Report</h1>
+    <img src="https://github.com/user-attachments/assets/d50b9348-a586-4721-98d7-35da11444fb3" alt="Monthly Business Ranking Analysis Report" />
+</div>
 
 ## Table of Content:
 - [1. Data Collection](#1-data-collection)
