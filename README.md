@@ -311,7 +311,8 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
   <summary id="5-demo">5. Demo</summary>
 
 https://github.com/user-attachments/assets/9e9fca5b-a12a-48bf-af1e-5d16cda652a2
-    <p><em>Demo project</em></p>
+
+<p><em>Demo project</em></p>
 
 </details>
 
