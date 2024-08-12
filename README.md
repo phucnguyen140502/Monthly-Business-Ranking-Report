@@ -19,7 +19,7 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
     <p><em>Choose file csv on computer</em></p>
   </div>
 
-* Table Mapping 📊:
+* Table Mapping 🎯:
   
   <div align="center">
     <img src="https://github.com/user-attachments/assets/5d69790d-6fc3-44ac-906e-80bdde5722fa"/>
@@ -69,7 +69,7 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
   <summary id="2-data-preparation--transformation">2. Data Modeling & ETL (Extract, Transform, Load) Processes 🗃️ </summary>
     
 * You need to create physical, we will 2 folder including: summary (tổng hợp) and ranking (xếp hạng)
-    * Summary(tổng hợp):
+    * Summary(tổng hợp) 📋:
   
       - You may view the code postgres by click this [here](https://github.com/phucnguyen140502/Monthly-Business-Ranking-Report/tree/main/script/t%C3%B4ng%20h%E1%BB%A3p). After the creating the physical table for the summary, this is the query you should use:
         
@@ -87,7 +87,7 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
      </div>
 
       
-    * Ranking (xếp hạng):
+    * Ranking (xếp hạng) 📊:
       
       - You may view the code postgres by click this [here](https://github.com/phucnguyen140502/Monthly-Business-Ranking-Report/tree/main/script/x%E1%BA%BFp%20h%E1%BA%A1ng). After the creating the physical table for the summary, this is the query you should use:
         
@@ -107,9 +107,9 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
 </details>
 
 <details>
-  <summary id="3-data-model">3. Database Connection & WinForm Integration with Python</summary>
+  <summary id="3-data-model">3. Database Connection & WinForm Integration with Python 🗄️🖥️</summary>
     
-* Connect With Postgres:
+* Connect With Postgres 🔌:
     ```python
 
     def test_connection():
@@ -142,7 +142,7 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
         return df
     ```
     
-* Update excel BCTH & BCXH:
+* Update excel BCTH & BCXH 🔄:
 
     ```python
     def update_excel_BCTH_with_postgres_data(excel_file, sheet_name, query, connection_details, criteria_column='criteria'):
@@ -193,7 +193,7 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
         workbook.save(excel_file)
     ```
     
-* Winform:
+* Winform 🖥️:
 
     ```python
     root = tk.Tk()
@@ -249,7 +249,7 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
     root.mainloop()
     ```
 
-* Export:
+* Export 📤:
          
     ```python
     
@@ -282,7 +282,7 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
             messagebox.showerror("Error", f"Failed to generate report:\n{str(e)}")
     ```
 
-* Results:
+* Results 📈:
   <div align="center">
       <img src="https://github.com/user-attachments/assets/b1efe68b-72b6-4d92-b346-23ded147846c"/>
        <p><em>Winform Screen</em></p>
@@ -292,7 +292,7 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
 </details>
 
 <details>
-  <summary id="4-data-visualization">4. Data Visualization</summary>
+  <summary id="4-data-visualization">4. Data Visualization 🖼️</summary>
 <div align="center">
 <img src="https://github.com/user-attachments/assets/426dd3b0-02fa-41ec-8a2f-2dce80e9f861"/>
    <p><em>Bao Cao Tong Hop</em></p>
@@ -306,7 +306,7 @@ My Goals: The project will assist you in creating overviews and monthly ranking 
 </details>
 
 <details>
-  <summary id="5-demo">5. Demo</summary>
+  <summary id="5-demo">5. Demo 🎥</summary>
 
 https://github.com/user-attachments/assets/9e9fca5b-a12a-48bf-af1e-5d16cda652a2
 
