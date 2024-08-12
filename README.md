@@ -154,7 +154,28 @@ The project will assist you in creating overviews and monthly ranking reports, i
 
 <details>
   <summary id="3-data-model">3. Database Connection & WinForm Integration with Python 🗄️🖥️</summary>
-    
+  
+  
+⚠️ **Important:** Installing the libraries is a prerequisite before running the application.
+
+Syntax for instal library :
+
+```
+pip instal ....
+```
+
+* Import the Python libraries needed for the project 📦:
+  
+```python
+import tkinter as tk
+from tkinter import ttk, messagebox
+from sqlalchemy import create_engine
+import pandas as pd
+import urllib.parse
+from openpyxl import load_workbook
+```
+
+  
 * Connect With Postgres 🔌:
     ```python
 
