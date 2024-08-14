@@ -1,9 +1,9 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from sqlalchemy import create_engine
-import pandas as pd
+from sqlalchemy import create_engine # type: ignore
+import pandas as pd # type: ignore
 import urllib.parse
-from openpyxl import load_workbook
+from openpyxl import load_workbook # type: ignore
 
 def test_connection():
     dbname = dbname_entry.get()
@@ -34,33 +34,6 @@ def connect_postgres(query, connection_details):
     engine.dispose()
     return df
 
-def export():
-    dbname = dbname_entry.get()
-    user = user_entry.get()
-    host = host_entry.get()
-    password = password_entry.get()
-    port = port_entry.get()
-
-    password = urllib.parse.quote_plus(password)
-    connection_string = f'postgresql://{user}:{password}@{host}:{port}/{dbname}'
-    
-    try:
-
-        excel_file = 'results/template_report_kinh_doanh.xlsx'
-
-        if var_template_BCTH.get():
-            query1 = "SELECT * FROM xep_hang_kinh_doanh.results"
-            sheet_name1 = 'template_BCTH'
-            update_excel_BCTH_with_postgres_data(excel_file, sheet_name1, query1, connection_string)
-        
-        if var_template_BCXH.get():
-            query2 = "SELECT * FROM xep_hang_kinh_doanh.xep_hang"
-            sheet_name2 = 'template_BCXH'
-            update_excel_BCXH_with_postgres_data(excel_file, sheet_name2, query2, connection_string)
-        
-        messagebox.showinfo("Success", "Report generated successfully!")
-    except Exception as e:
-        messagebox.showerror("Error", f"Failed to generate report:\n{str(e)}")
 
 def update_excel_BCTH_with_postgres_data(excel_file, sheet_name, query, connection_details, criteria_column='criteria'):
     """
@@ -108,6 +81,34 @@ def update_excel_BCXH_with_postgres_data(excel_file, sheet_name, query, connecti
     
     # Save the workbook
     workbook.save(excel_file)
+
+def export():
+    dbname = dbname_entry.get()
+    user = user_entry.get()
+    host = host_entry.get()
+    password = password_entry.get()
+    port = port_entry.get()
+
+    password = urllib.parse.quote_plus(password)
+    connection_string = f'postgresql://{user}:{password}@{host}:{port}/{dbname}'
+    
+    try:
+
+        excel_file = 'results/template_report_kinh_doanh.xlsx'
+
+        if var_template_BCTH.get():
+            query1 = "SELECT * FROM baicuoikhoa.tong_hop"
+            sheet_name1 = 'template_BCTH'
+            update_excel_BCTH_with_postgres_data(excel_file, sheet_name1, query1, connection_string)
+        
+        if var_template_BCXH.get():
+            query2 = "SELECT * FROM baicuoikhoa.xep_hang"
+            sheet_name2 = 'template_BCXH'
+            update_excel_BCXH_with_postgres_data(excel_file, sheet_name2, query2, connection_string)
+        
+        messagebox.showinfo("Success", "Report generated successfully!")
+    except Exception as e:
+        messagebox.showerror("Error", f"Failed to generate report:\n{str(e)}")
 
 root = tk.Tk()
 root.title("Report Kinh Doanh")
