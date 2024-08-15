@@ -40,13 +40,6 @@
   </a>
 </p>
 
-# Data Pipeline Flowchart 💻:
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/b1780de2-eb4d-4faf-a8b0-87fddf08bdbb" alt="FlowChart"/>
-  <p><em>click <a href="https://raw.githubusercontent.com/phucnguyen140502/Monthly-Business-Ranking-Report/main/chart/FlowChart.webp">here</a> to see more details</em></p>
-</div>
-
 
 
 
@@ -58,9 +51,16 @@
 - [4. Data Visualization](#4-data-visualization)
 - [5. Demo](#5-demo)
 
-My Goals 🎯: 
+## My Goals 🎯: 
 
 The project will assist you in creating overviews and monthly ranking reports, including everything from data preparation and collecting to data analysis and visualization.
+
+## Data Pipeline Flowchart 💻:
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b1780de2-eb4d-4faf-a8b0-87fddf08bdbb" alt="FlowChart"/>
+  <p><em>click <a href="https://raw.githubusercontent.com/phucnguyen140502/Monthly-Business-Ranking-Report/main/chart/FlowChart.webp">here</a> to see more details</em></p>
+</div>
 
 <details>
     <summary id="1-data-collection">1. Data Collection 📋</summary>
