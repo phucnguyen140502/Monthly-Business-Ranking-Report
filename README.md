@@ -55,7 +55,16 @@ My Goals 🎯:
 
 The project will assist you in creating overviews and monthly ranking reports, including everything from data preparation and collecting to data analysis and visualization.
 
+# Data Pipeline Flowchart
+
+```plaintext
+📥 [Data Sources] --> 💾 [Database] --> 🛠 [Processing] --> 📊 [Visualization]
+```
+![FlowChart](https://github.com/user-attachments/assets/5da8c789-da5d-4584-87dd-b27eb4167f44)
+click [here](https://raw.githubusercontent.com/phucnguyen140502/Monthly-Business-Ranking-Report/main/chart/FlowChart.webp) to see more details 
+
 <details>
+
     <summary id="1-data-collection">1. Data Collection 📋</summary>
     
 * Choose file CSV on your desk to import data into DBeaver CE 📁 :
