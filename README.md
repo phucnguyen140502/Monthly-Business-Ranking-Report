@@ -40,7 +40,8 @@
   </a>
 </p>
 
-
+# Data Pipeline Flowchart 💻:
+![FlowChart](https://github.com/user-attachments/assets/901de6a9-1075-44e9-80f2-590e46a9de6c)
 
 
 
