@@ -41,7 +41,13 @@
 </p>
 
 # Data Pipeline Flowchart 💻:
-![FlowChart](https://github.com/user-attachments/assets/901de6a9-1075-44e9-80f2-590e46a9de6c)
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b1780de2-eb4d-4faf-a8b0-87fddf08bdbb" alt="FlowChart"/>
+  <p><em>click <a href="https://raw.githubusercontent.com/phucnguyen140502/Monthly-Business-Ranking-Report/main/chart/FlowChart.webp">here</a> to see more details</em></p>
+</div>
+
+
 
 
 
